@@ -37,6 +37,20 @@ body {
     margin: 0 auto;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* ----------------------HEADER----------------- */
 
 .header {}
@@ -170,6 +184,7 @@ body {
 
 .features {
     margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .features-title {
@@ -216,4 +231,133 @@ body {
         font-weight: 700;
             color: #fff;
             text-transform: uppercase;
+}
+
+/* ----------------------SERVICES----------------- */
+
+.services {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px; */
+    margin-bottom: 150px;
+}
+
+.services-section {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    gap: 84px;
+}
+
+.management {
+    margin-bottom: 100px;
+}
+
+.support {
+    margin-bottom: 100px;
+}
+
+.services-subtitle {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.services-title {
+        font-size: 32px;
+        margin-bottom: 25px;
+}
+
+.services-text {
+        line-height: 1.63;
+        margin-bottom: 30px;
+}
+
+.services-list {}
+
+.services-item {}
+
+.services-item-title {
+    font-weight: 600;
+        font-size: 16px;
+        line-height: 1.63;
+        margin-bottom: 12px;
+}
+
+.services-item-desc {
+        line-height: 1.63;
+        margin-bottom: 25px;
+}
+
+.services-img {}
+
+.services-support-list {
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+
+.services-support-item { 
+    display: flex;
+    gap: 30px;
+}
+
+.services-support-icon {}
+
+.services-support-desc {}
+
+/* ----------------------REVIEWS----------------- */
+
+.reviews {
+    
+}
+
+.container .container-reviews {
+    max-width: 916px;
+}
+
+.reviews-title {
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 25px;
+}
+
+.reviews-desc {
+    font-weight: 500;
+        line-height: 1.63;
+        text-align: center;
+        margin-bottom: 40px;
+}
+
+.reviews-list {
+    display: flex;
+        justify-content: center;
+        row-gap: 25px;
+        column-gap: 100px;
+flex-wrap: wrap;
+margin-bottom: 50px;
+}
+
+.reviews-item {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews-item-img {}
+
+.reviews-item-text {}
+
+.reviews-btn {
+    min-width: 216px;
+        height: 53px;
+        border-radius: 4px;
+        border: none;
+        background-color: #02897a;
+        font-weight: 700;
+            color: #fff;
+            display: block;
+            margin: 0 auto;
 }
